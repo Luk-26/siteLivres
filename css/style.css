@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(210, 154, 93);
+    color: rgb(0, 0, 0);
+}
+.back{
+    background-color: rgb(210, 154, 93);
+}
+.lexiquele{
+    color:rgb(0, 0, 0);
+    border: dotted ;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+}
+.h2{
+    color: rgb(43, 205, 167);
+}
+.genre{
+    color: rgb(43, 205, 167);
+    border:solid;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+    background-color: rgb(2, 0, 94);
+}
+img{
+    border-radius: 100px;
+}
+
+figcaption{
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: bolder;
+}
+.Titre{
+    text-align: center;
+    color: rgb(68, 32, 0);
+}
+.Lexiquetitre{
+    text-align: center;
+    color: rgb(51, 28, 0);
+}
+.Anonono{
+    text-align: center;
+    color: rgb(88, 51, 0);
+}
+
+.couleur{
+    text-align: center;
+}
+.Code{
+    color: blue;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+.liens{
+    display: flex;
+  justify-content: center;
+  align-items: center;  
+  gap: 50px;
+}
+.pal{
+    text-align: center;
+    color: rgb(81, 50, 0);
+}
+.wish{
+    text-align: center;
+    color: rgb(86, 40, 0);
+}
+.pres{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: larger;
+}
+.avis{
+    text-align: center;
+    color: rgb(77, 27, 0);
+}
