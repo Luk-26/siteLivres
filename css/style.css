@@ -1,102 +1,68 @@
-body{
-    background-color: #f8f4e3;
-    color: #2f4223;
+body {
+    background-color: #01030b;
+    color: #5b7cab;
     font-family: 'Georgia', serif;
     width: 100%;
-    padding: 1rem;
+    padding: 0;
     margin: 0;
 }
-.back{
-    background-color: rgb(210, 154, 93);
-}
-.lexiquele{
-    color:rgb(0, 0, 0);
-    border: dotted ;
+.genre {
+    color: #c5dbf5;
+    border: solid 3px;
+    width: 900px;
+    height: 110px;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
     font-size: large;
-}
-.h2{
-    color: rgb(43, 205, 167);
-}
-.genre{
-    color: rgb(43, 205, 167);
-    border:solid;
-    border-radius: 10px;
-    padding: 10px 10px 10px 10px;
-    font-size: large;
-    background-color: rgb(2, 0, 94);
-}
-img{
-    border-radius: 100px;
+    font-weight: 100px;
+    box-shadow: 0 4px 10px ;
+
 }
 
-figcaption{
-    color: rgb(0, 0, 0);
-    font-size: larger;
-    font-weight: bolder;
-}
-.Titre{
+.Titre {
     text-align: center;
-    color: rgb(68, 32, 0);
-}
-.Lexiquetitre{
-    text-align: center;
-    color: rgb(51, 28, 0);
-}
-.Anonono{
-    text-align: center;
-    color: rgb(88, 51, 0);
+    color: #5b7cab;
 }
 
-.couleur{
+.couleur {
     text-align: center;
 }
-.Code{
+
+.Code {
     color: blue;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
 }
-.liens{
+
+.liens {
     display: flex;
-  justify-content: center;
-  align-items: center;  
-  gap: 50px;
-  border-bottom: 5px solid;
-  border-color: #e9e3ca;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 5px solid;
+    
+    border-color: #1a2d4c;
 }
-.pal{
-    text-align: center;
-    color: rgb(81, 50, 0);
-}
-.wish{
-    text-align: center;
-    color: rgb(86, 40, 0);
-}
-.pres{
-    font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-p{
+
+p {
     margin: 0.75rem 0;
     line-height: 1.5;
+}
 
-}
-.avis{
-    text-align: center;
-    color: rgb(77, 27, 0);
-}
-a:link,a:visited{
-    color:black;
+a:link,
+a:visited {
+    color: #c5dbf5;
     text-decoration: none;
+    margin-right: 100px;
 }
-.conteneur{
+
+.conteneur {
     width: 80%;
     margin: 0 auto;
 }
-.introduction{
+
+.introduction {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -106,30 +72,59 @@ a:link,a:visited{
     flex-wrap: wrap;
     gap: 5rem;
 }
-.couverture{
-    max-width: 150px;
-    margin-bottom: 0 ;
+
+.couverture {
+    max-width: 300px;
+    margin-bottom: 20px;
     flex-shrink: 0;
 }
-.contenu{
+
+.contenu {
     text-align: left;
     max-width: 600px;
 }
-h1{
+
+h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
-h2{
+
+h2 {
     font-size: 1.25rem;
     margin-bottom: 1rem;
     font-style: italic;
 }
-h3{
+
+h3 {
     font-size: 1.2rem;
     margin-top: 1.5rem;
 }
-blockquote{
+
+blockquote {
     font-style: italic;
     font-size: 1.1rem;
     margin-top: 2rem;
+}
+
+.annotations {
+    max-width: 350px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lexique {
+    color: #c5dbf5;
+    border: dotted ;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+    list-style-type: none;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 10px ;
 }
