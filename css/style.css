@@ -137,3 +137,24 @@ blockquote {
     text-align: center;
     color: #5b7cab;
 }
+ table {
+        width: 60%;
+        border-collapse: collapse;
+        margin: 20px 300px ;
+        background-color: #f9f7f1;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th,
+    td {
+        border: 10px solid #ddd;
+        padding: 10px;
+       
+    }
+
+    th {
+        background-color: #e0dcd5;
+        color: #4b4b4b;
+       
+    }
