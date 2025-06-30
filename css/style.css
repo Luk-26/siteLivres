@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .genre {
     color: #c5dbf5;
     border: solid 3px;
@@ -15,7 +16,7 @@ body {
     padding: 10px 10px 10px 10px;
     font-size: large;
     font-weight: 100px;
-    box-shadow: 0 4px 10px ;
+    box-shadow: 0 4px 10px;
 
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 .Code {
-    color: blue;
+    color: rgb(162, 185, 234);
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
@@ -41,7 +42,7 @@ body {
     align-items: center;
     gap: 50px;
     border-bottom: 5px solid;
-    
+
     border-color: #1a2d4c;
 }
 
@@ -119,14 +120,41 @@ blockquote {
     flex-direction: column;
     align-items: center;
 }
+
 .lexique {
     color: #c5dbf5;
-    border: dotted ;
+    border: dotted;
     width: 1000px;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
     font-size: large;
     list-style-type: none;
     font-family: 'Segoe UI', sans-serif;
-    box-shadow: 0 4px 10px ;
+    box-shadow: 0 4px 10px;
 }
+
+.tableau {
+    text-align: center;
+    color: #5b7cab;
+}
+ table {
+        width: 60%;
+        border-collapse: collapse;
+        margin: 20px 300px ;
+        background-color: #f9f7f1;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th,
+    td {
+        border: 10px solid #ddd;
+        padding: 10px;
+       
+    }
+
+    th {
+        background-color: #e0dcd5;
+        color: #4b4b4b;
+       
+    }
